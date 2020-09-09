@@ -1,0 +1,114 @@
+/*General properties*/
+
+body {
+    background-color: #EBEBEB;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    background-color: white;
+    width: 40%;
+    margin: 1%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px grey;
+    padding: 2em 2em 2em 2em;
+}
+
+h1 {
+    color: #DF5555;
+    font-size: 2em;
+}
+
+h2, h3 {
+    color: #7D7D7D;
+}
+
+p {
+    text-align: justify;
+    color: #7D7D7D;
+    line-height: 2em;
+}
+
+/*First section*/
+
+.pic {
+    border-radius: 50%;
+    max-width: 30%;
+    height: auto;
+    border: 5px solid #CCCCCC;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#button {
+    background-color: #DF5555;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+div a:link, div a:visited {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/*Second section*/
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    gap: 2em;
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+}
+
+li a, li i {
+    color: #CCCCCC;
+    text-decoration: none;
+}
+
+i {
+    font-size: 2em;
+}
+
+/*Third section*/
+
+span {
+    background-color: #d4d4d4;
+}
+
+#films h2 {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1em;
+}
+
+div img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 1em;
+}
+
+h3 {
+    text-align: center;
+}
